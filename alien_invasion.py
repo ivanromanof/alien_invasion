@@ -22,8 +22,8 @@ class AlienInvasion:
 
         def _check_events(self):
             for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-            sys.exit()
+                if event.type == pygame.QUIT:
+                    sys.exit()
 
         def _update_screen(self):
             self.screen.fill(self.settings.bg_color)
