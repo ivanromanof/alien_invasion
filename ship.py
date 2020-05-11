@@ -12,5 +12,5 @@ class Ship():
 
         self.rect.midbottom = self.screen_rect.midbottom
 
-    def bltime(self):
+    def blitme(self):
         self.screen.blit(self.image, self.rect)
